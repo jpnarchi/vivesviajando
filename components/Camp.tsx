@@ -63,6 +63,18 @@ const Camp = () => {
           subtitle="Suiza, Europa"
           peopleJoined="30+ Viajeros"
         />
+        <CampSite 
+          backgroundImage="bg-bg-img-3"
+          title="Aventura en los Alpes"
+          subtitle="Suiza, Europa"
+          peopleJoined="30+ Viajeros"
+        />
+        <CampSite 
+          backgroundImage="bg-bg-img-4"
+          title="Aventura en los Alpes"
+          subtitle="Suiza, Europa"
+          peopleJoined="30+ Viajeros"
+        />
       </div>
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
