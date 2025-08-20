@@ -67,15 +67,15 @@ export const FOOTER_LINKS = [
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
+  title: 'Contáctanos',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Teléfono', value: '+34 912 345 678' },
+    { label: 'Email', value: 'info@traveltoday.com' },
   ],
 };
 
 export const SOCIALS = {
-  title: 'Social',
+  title: 'Redes Sociales',
   links: [
     '/facebook.svg',
     '/instagram.svg',
