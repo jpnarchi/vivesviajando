@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '/', key: 'home', label: 'Inicio' },
+  { href: '/', key: 'como_funciona', label: '¿Cómo Funciona?' },
+  { href: '/', key: 'servicios', label: 'Servicios' },
+  { href: '/', key: 'precios', label: 'Precios' },
+  { href: '/', key: 'contacto', label: 'Contacto' },
 ];
 
 // CAMP SECTION
@@ -18,51 +18,51 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Planificación de viajes personalizada',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Creamos itinerarios únicos adaptados a tus gustos y presupuesto. Nuestros expertos seleccionan los mejores destinos y actividades para cada viajero.',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Reservas fáciles y rápidas',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      'Reserva vuelos, hoteles y actividades en un solo lugar. Con nuestro sistema integrado, organizar tu viaje nunca fue tan sencillo.',
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Soporte 24/7 durante tu viaje',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'Nuestro equipo está disponible las 24 horas para ayudarte durante tu viaje. Desde cambios de última hora hasta recomendaciones locales.',
   },
   {
-    title: 'Many new locations every month',
+    title: 'Nuevos destinos cada mes',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Exploramos constantemente nuevos destinos para ofrecerte experiencias únicas. Descubre lugares increíbles que otros no conocen.',
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: 'Conoce Más',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      'Acerca de TravelToday',
+      'Noticias',
+      'Turismo Sostenible',
+      'Trabaja con Nosotros',
+      'Política de Privacidad',
+      'Contáctanos',
     ],
   },
   {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    title: 'Nuestra Comunidad',
+    links: ['Viajeros Aventureros', 'Familias Viajeras', 'Turismo Cultural'],
   },
 ];
 

@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Travel',
-  description: 'Travel UI/UX App for Camping',
+  title: 'TravelToday - Tu Agencia de Viajes',
+  description: 'TravelToday - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
 }
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body>
         <Navbar />
         <main className="relative overflow-hidden">
