@@ -1,9 +1,22 @@
+"use client"
+
 import { NAV_LINKS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
 import Button from "./Button"
+import { useState } from "react"
 
 const Navbar = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen)
+  }
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false)
+  }
+
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
@@ -28,12 +41,55 @@ const Navbar = () => {
       </div>
 
       <Image 
-        src="menu.svg"
+        src={isMobileMenuOpen ? "/close.svg" : "/menu.svg"}
         alt="menu"
         width={32}
         height={32}
         className="inline-block cursor-pointer lg:hidden"
+        onClick={toggleMobileMenu}
       />
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden">
+          <div className="fixed top-0 right-0 h-full w-64 bg-white shadow-lg z-50">
+            <div className="flex justify-between items-center p-4 border-b">
+              <h3 className="text-lg font-semibold text-gray-800">Menú</h3>
+              <Image 
+                src="/close.svg"
+                alt="close"
+                width={24}
+                height={24}
+                className="cursor-pointer"
+                onClick={closeMobileMenu}
+              />
+            </div>
+            
+            <ul className="p-4 space-y-4">
+              {NAV_LINKS.map((link) => (
+                <li key={link.key}>
+                  <Link 
+                    href={link.href} 
+                    className="regular-16 text-gray-800 block py-2 transition-all hover:text-green-600"
+                    onClick={closeMobileMenu}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            
+            <div className="p-4 border-t">
+              <Button 
+                type="button"
+                title="¡Contáctanos!"
+                icon="/user.svg"
+                variant="btn_dark_green"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   )
 }
