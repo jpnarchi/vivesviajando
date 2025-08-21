@@ -1,9 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Inicio' },
-  { href: '/', key: 'como_funciona', label: '¿Cómo Funciona?' },
-  { href: '/', key: 'servicios', label: 'Servicios' },
-  { href: '/', key: 'precios', label: 'Precios' },
+  { href: '/destinos', key: 'destinos', label: 'Destinos' },
+  { href: '/cruceros', key: 'cruceros', label: 'Cruceros' },
+  { href: '/', key: 'precios', label: 'Cotizaciones' },
   { href: '/', key: 'contacto', label: 'Contacto' },
 ];
 
@@ -84,3 +84,37 @@ export const SOCIALS = {
     '/wordpress.svg',
   ],
 };
+
+// DESTINOS
+export const DESTINOS = [
+  { name: 'África y Océano Índico', slug: 'africa-oceano-indico', image: '/img-1.png' },
+  { name: 'Alaska', slug: 'alaska', image: '/img-2.png' },
+  { name: 'Amazonas y Perú', slug: 'amazonas-peru', image: '/img-3.png' },
+  { name: 'Antártida', slug: 'antartida', image: '/img-1.png' },
+  { name: 'Ártico', slug: 'artico', image: '/img-2.png' },
+  { name: 'Asia', slug: 'asia', image: '/img-3.png' },
+  { name: 'Australia y Nueva Zelanda', slug: 'australia-nueva-zelanda', image: '/img-1.png' },
+  { name: 'Bahamas', slug: 'bahamas', image: '/img-2.png' },
+  { name: 'Báltico', slug: 'baltico', image: '/img-3.png' },
+  { name: 'Bermudas', slug: 'bermudas', image: '/img-1.png' },
+  { name: 'Canadá / Nueva Inglaterra', slug: 'canada-nueva-inglaterra', image: '/img-2.png' },
+  { name: 'Canal de Panamá y Centroamérica', slug: 'canal-panama-centroamerica', image: '/img-3.png' },
+  { name: 'Caribe', slug: 'caribe', image: '/img-1.png' },
+  { name: 'Costa del Pacífico', slug: 'costa-pacifico', image: '/img-2.png' },
+  { name: 'Europa', slug: 'europa', image: '/img-3.png' },
+  { name: 'Fiordos Noruegos', slug: 'fiordos-noruegos', image: '/img-1.png' },
+  { name: 'Galápagos', slug: 'galapagos', image: '/img-2.png' },
+  { name: 'Hawaii', slug: 'hawaii', image: '/img-3.png' },
+  { name: 'Islandia', slug: 'islandia', image: '/img-1.png' },
+  { name: 'Islas Británicas / Europa del Norte', slug: 'islas-britanicas-europa-norte', image: '/img-2.png' },
+  { name: 'Islas Canarias', slug: 'islas-canarias', image: '/img-3.png' },
+  { name: 'Islas del Pacífico (Polinesia Francesa)', slug: 'islas-pacifico-polinesia', image: '/img-1.png' },
+  { name: 'Mar Negro', slug: 'mar-negro', image: '/img-2.png' },
+  { name: 'Mar Rojo', slug: 'mar-rojo', image: '/img-3.png' },
+  { name: 'Medio Oriente', slug: 'medio-oriente', image: '/img-1.png' },
+  { name: 'Mediterráneo', slug: 'mediterraneo', image: '/img-2.png' },
+  { name: 'México', slug: 'mexico', image: '/img-3.png' },
+  { name: 'Rutas Enológicas', slug: 'rutas-enologicas', image: '/img-1.png' },
+  { name: 'Rutas Gastronómicas', slug: 'rutas-gastronomicas', image: '/img-2.png' },
+  { name: 'Sudamérica', slug: 'sudamerica', image: '/img-3.png' }
+];

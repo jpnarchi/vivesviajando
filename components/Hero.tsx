@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
 
           <p className="bold-16 lg:bold-20 text-blue-70">
-            198k
+            300+
             <span className="regular-16 lg:regular-20 ml-1">Reseñas Excelentes</span>
           </p>
         </div>
@@ -64,7 +64,7 @@ const Hero = () => {
             </div>
             <div className="flex flex-col">
               <p className="regular-16 block text-gray-20">Precio</p>
-              <p className="bold-20 text-white">€1.299</p>
+              <p className="bold-20 text-white">$1,200</p>
             </div>
           </div>
         </div>
