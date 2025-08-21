@@ -9,17 +9,7 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-          <div className="flex items-center">
-          <span className="text-2xl font-bold bg-gradient-to-r from-green-600 via-green-500 to-green-700 bg-clip-text text-transparent">
-            Travel
-          </span>
-          <span className="text-2xl font-bold text-black">
-            Today
-          </span>
-          <span className="text-2xl font-bold bg-gradient-to-r from-green-800 to-green-600 bg-clip-text text-transparent">
-            .Tours
-          </span>
-        </div>
+            <Image src="/logo.svg" alt="logo" width={150} height={29} />
           </Link>
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
