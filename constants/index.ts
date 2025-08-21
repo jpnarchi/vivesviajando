@@ -52,7 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Conoce Más',
     links: [
-      'Acerca de TravelToday',
+      'Acerca de Viaje x Viaje',
       'Noticias',
       'Turismo Sostenible',
       'Trabaja con Nosotros',
@@ -70,7 +70,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contáctanos',
   links: [
     { label: 'Teléfono', value: '+34 912 345 678' },
-    { label: 'Email', value: 'info@traveltoday.com' },
+    { label: 'Email', value: 'info@viajexviaje.com' },
   ],
 };
 

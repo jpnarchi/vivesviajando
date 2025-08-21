@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'TravelToday - Tu Agencia de Viajes',
-  description: 'TravelToday - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
+  title: 'Viaje x Viaje - Tu Agencia de Viajes',
+  description: 'Viaje x Viaje - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
 }
 
 export default function RootLayout({

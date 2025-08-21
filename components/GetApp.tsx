@@ -17,18 +17,18 @@ const GetApp = () => {
               <input
                 type="text"
                 placeholder="Nombre completo"
-                className="regular-16 p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-green-500"
+                className="regular-16 p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-green-50"
                 required
               />
               
               <input
                 type="email"
                 placeholder="Correo electrónico"
-                className="regular-16 p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-green-500"
+                className="regular-16 p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-green-50"
                 required
               />
               
-              <select className="regular-16 p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-green-500" required>
+              <select className="regular-16 p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-green-50" required>
                 <option value="">Destino de interés</option>
                 <option value="europa">Europa</option>
                 <option value="asia">Asia</option>
@@ -40,7 +40,7 @@ const GetApp = () => {
               <input
                 type="date"
                 placeholder="Fecha de viaje"
-                className="regular-16 p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-green-500"
+                className="regular-16 p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-green-50"
                 required
               />
               

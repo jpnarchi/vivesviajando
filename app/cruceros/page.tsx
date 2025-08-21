@@ -18,7 +18,7 @@ export default function CrucerosPage() {
             alt="Cruceros"
             width={800}
             height={500}
-            className="rounded-2xl shadow-2xl shadow-green-500/30"
+            className="rounded-2xl shadow-2xl shadow-green-50/30"
           />
         </div>
 

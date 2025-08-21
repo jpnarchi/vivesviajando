@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         green: {
-          50: '#30AF5B',
-          90: '#292C27',
+          50: '#00538B', // Blue color instead of green
+          90: '#003d66', // Darker blue color instead of dark green
         },
         gray: {
           10: '#EEEEEE',
