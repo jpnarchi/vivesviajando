@@ -17,15 +17,25 @@ export const metadata: Metadata = {
     apple: '/logo.png',
   },
   openGraph: {
+    type: 'website',
+    url: 'https://viajexviaje.com',
     title: 'Viaje x Viaje',
     description: 'Viaje x Viaje - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
-    images: ['/img-2.png'],
+    images: [
+      {
+        url: 'https://viajexviaje.com/img-2.png',
+        width: 1200,
+        height: 630,
+        alt: 'Viaje x Viaje - Agencia de viajes',
+      }
+    ],
   },
   twitter: {
     card: 'summary_large_image',
+    site: '@your-twitter',
     title: 'Viaje x Viaje',
     description: 'Viaje x Viaje - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
-    images: ['/img-2.png'],
+    images: ['https://viajexviaje.com/img-2.png'],
   },
 }
 
