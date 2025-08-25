@@ -3,8 +3,8 @@ export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Inicio' },
   { href: '/destinos', key: 'destinos', label: 'Destinos' },
   { href: '/cruceros', key: 'cruceros', label: 'Cruceros' },
-  { href: '/', key: 'precios', label: 'Cotizaciones' },
-  { href: '/', key: 'contacto', label: 'Contacto' },
+  { href: '/cotizaciones', key: 'precios', label: 'Cotizaciones' },
+
 ];
 
 // CAMP SECTION

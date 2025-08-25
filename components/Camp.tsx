@@ -53,27 +53,27 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite 
           backgroundImage="bg-bg-img-1"
-          title="Destino Costa Brava"
+          title="la Sagrada Familia"
           subtitle="Barcelona, España"
-          peopleJoined="50+ Viajeros"
+          peopleJoined="15+ Viajeros"
         />
         <CampSite 
           backgroundImage="bg-bg-img-2"
-          title="Aventura en los Alpes"
-          subtitle="Suiza, Europa"
-          peopleJoined="30+ Viajeros"
+          title="Coliseo Romano"
+          subtitle="Roma, Italia"
+          peopleJoined="20+ Viajeros"
         />
         <CampSite 
           backgroundImage="bg-bg-img-3"
-          title="Aventura en los Alpes"
-          subtitle="Suiza, Europa"
-          peopleJoined="30+ Viajeros"
+          title="Time Square"
+          subtitle="Nueva York, Estados Unidos"
+          peopleJoined="10+ Viajeros"
         />
         <CampSite 
           backgroundImage="bg-bg-img-4"
-          title="Aventura en los Alpes"
-          subtitle="Suiza, Europa"
-          peopleJoined="30+ Viajeros"
+          title="Monte Fuji"
+          subtitle="Japon"
+          peopleJoined="3+ Viajeros"
         />
       </div>
 

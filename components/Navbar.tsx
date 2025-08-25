@@ -5,8 +5,10 @@ import Image from "next/image"
 import Link from "next/link"
 import Button from "./Button"
 import { useState } from "react"
+import { useRouter } from "next/navigation"
 
 const Navbar = () => {
+  const router = useRouter()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   const toggleMobileMenu = () => {
@@ -20,7 +22,7 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/logo.png" alt="logo" width={120} height={40} />
+        <Image src="/logo.png" alt="logo" width={80} height={40} />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
@@ -31,7 +33,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="lg:flexCenter hidden">
+      <div className="lg:flexCenter hidden" onClick={() => router.push('/contacto')}>
         <Button 
           type="button"
           title="¡Contáctanos!"

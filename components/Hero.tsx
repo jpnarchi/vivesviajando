@@ -1,7 +1,11 @@
+"use client"
 import Image from 'next/image'
 import Button from './Button'
+import { useRouter } from 'next/navigation'
 
 const Hero = () => {
+  const router = useRouter()
+  
   return (
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="hero-map" />
@@ -12,7 +16,7 @@ const Hero = () => {
           Queremos acompañarte en cada viaje, descubriendo la belleza incomparable del mundo. Te ayudamos a planificar aventuras extraordinarias en cualquier destino con nuestra plataforma integral.
         </p>
 
-        <div className="my-11 flex flex-wrap gap-5">
+        {/* <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
             {Array(5).fill(1).map((_, index) => (
               <Image 
@@ -26,23 +30,26 @@ const Hero = () => {
           </div>
 
           <p className="bold-16 lg:bold-20 text-blue-70">
-            300+
+            120+
             <span className="regular-16 lg:regular-20 ml-1">Reseñas Excelentes</span>
           </p>
-        </div>
+        </div> */}
 
-        <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button 
-            type="button" 
-            title="Planifica tu Viaje" 
-            variant="btn_green" 
-          />
-          <Button 
-            type="button" 
-            title="¿Cómo trabajamos?" 
-            icon="/play.svg"
-            variant="btn_white_text" 
-          />
+        <div className="flex flex-col w-full gap-6 pt-10 sm:flex-row">
+          <div onClick={() => router.push('/cotizaciones')}>
+            <Button 
+              type="button" 
+              title="Planifica tu Viaje" 
+              variant="btn_green" 
+            />
+          </div>
+          <div onClick={() => router.push('/contacto')}>
+            <Button 
+              type="button" 
+              title="Contáctanos" 
+              variant="btn_white_blue" 
+            />
+          </div>
         </div>
       </div>
 

@@ -1,7 +1,12 @@
+"use client"
 import Image from 'next/image'
+import Button from './Button'
 import React from 'react'
+import { useRouter } from 'next/navigation'
 
 const Guide = () => {
+  const router = useRouter()
+  
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
@@ -11,8 +16,18 @@ const Guide = () => {
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Te Guiamos al Destino Perfecto</h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]">Con Viaje x Viaje nunca más te sentirás perdido planificando tus vacaciones. Ofrecemos itinerarios personalizados y soporte completo. Invita a tus amigos y familia a vivir experiencias increíbles alrededor del mundo.</p>
+          <div className="flex flex-col gap-5 lg:gap-10">
+            <p className="regular-16 text-gray-30 xl:max-w-[520px]">Con Viaje x Viaje nunca más te sentirás perdido planificando tus vacaciones. Ofrecemos itinerarios personalizados y soporte completo. Invita a tus amigos y familia a vivir experiencias increíbles alrededor del mundo.</p>
+            <div onClick={() => router.push('/cotizaciones')}>
+              <Button 
+                type="button" 
+                title="Cotiza tu Viaje" 
+                variant="btn_green" 
+              />
+            </div>
+          </div>
         </div>
+
       </div>
 
       <div className="flexCenter max-container relative w-full">

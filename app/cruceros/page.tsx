@@ -6,9 +6,9 @@ export default function CrucerosPage() {
     <>
       <section className="max-container padding-container py-20">
         <div className="text-center mb-12">
-          <p className="regular-16 text-green-50 mb-4">experiencias</p>
-          <h1 className="bold-32 lg:bold-52 text-black mb-16">
-            Encuentra tu viaje ideal
+          <p className="regular-16 text-green-50 mb-4">Experiencias</p>
+          <h1 className="bold-32 lg:bold-64 text-black mb-16">
+            Encuentra tu crucero ideal
           </h1>
         </div>
 
