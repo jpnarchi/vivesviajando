@@ -135,7 +135,10 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('Quote API - Catch error:', error);
     return NextResponse.json(
-      { error: 'Error interno del servidor', details: error.message },
+      { 
+        error: 'Error interno del servidor', 
+        details: error instanceof Error ? error.message : 'Unknown error' 
+      },
       { status: 500 }
     );
   }
