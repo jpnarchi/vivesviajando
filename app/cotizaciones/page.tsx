@@ -49,7 +49,7 @@ const CotizacionesPage = () => {
     }
   }
 
-  const handleCheckboxArrayChange = (name: string, value: string) => {
+  const handleCheckboxArrayChange = (name: keyof typeof formData, value: string) => {
     setFormData(prev => {
       const currentArray = prev[name] as string[]
       const newArray = currentArray.includes(value)
