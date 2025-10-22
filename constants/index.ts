@@ -52,7 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Conoce Más',
     links: [
-      'Acerca de Viaje x Viaje',
+      'Acerca de Vives Viajando',
       'Noticias',
       'Turismo Sostenible',
       'Trabaja con Nosotros',
@@ -70,7 +70,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contáctanos',
   links: [
     { label: 'Teléfono', value: '+34 912 345 678' },
-    { label: 'Email', value: 'info@viajexviaje.com' },
+    { label: 'Email', value: 'info@vivesviajando.com' },
   ],
 };
 

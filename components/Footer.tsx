@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">2025 Viaje x Viaje | Todos los derechos reservados</p>
+        <p className="regular-14 w-full text-center text-gray-30">2025 Vives Viajando | Todos los derechos reservados</p>
       </div>
     </footer>
   )

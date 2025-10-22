@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Viaje x Viaje',
-  description: 'Viaje x Viaje - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
+  title: 'Vives Viajando',
+  description: 'Vives Viajando - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
   icons: {
     icon: [
       { url: '/logo.png' },
@@ -18,24 +18,24 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://viajexviaje.com',
-    title: 'Viaje x Viaje',
-    description: 'Viaje x Viaje - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
+    url: 'https://vivesviajando.com',
+    title: 'Vives Viajando',
+    description: 'Vives Viajando - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
     images: [
       {
-        url: 'https://viajexviaje.com/img-2.png',
+        url: 'https://vivesviajando.com/img-2.png',
         width: 1200,
         height: 630,
-        alt: 'Viaje x Viaje - Agencia de viajes',
+        alt: 'Vives Viajando - Agencia de viajes',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@your-twitter',
-    title: 'Viaje x Viaje',
-    description: 'Viaje x Viaje - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
-    images: ['https://viajexviaje.com/img-2.png'],
+    title: 'Vives Viajando',
+    description: 'Vives Viajando - Descubre destinos increíbles y vive experiencias únicas con nuestra agencia de viajes',
+    images: ['https://vivesviajando.com/img-2.png'],
   },
 }
 

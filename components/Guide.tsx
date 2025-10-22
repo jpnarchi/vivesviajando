@@ -17,7 +17,7 @@ const Guide = () => {
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Te Guiamos al Destino Perfecto</h2>
           <div className="flex flex-col gap-5 lg:gap-10">
-            <p className="regular-16 text-gray-30 xl:max-w-[520px]">Con Viaje x Viaje nunca más te sentirás perdido planificando tus vacaciones. Ofrecemos itinerarios personalizados y soporte completo. Invita a tus amigos y familia a vivir experiencias increíbles alrededor del mundo.</p>
+            <p className="regular-16 text-gray-30 xl:max-w-[520px]">Con Vives Viajando nunca más te sentirás perdido planificando tus vacaciones. Ofrecemos itinerarios personalizados y soporte completo. Invita a tus amigos y familia a vivir experiencias increíbles alrededor del mundo.</p>
             <div onClick={() => router.push('/cotizaciones')}>
               <Button 
                 type="button" 
